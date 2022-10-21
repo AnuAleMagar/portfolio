@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-color:#DFF6FF;  
+}
+.main{
+    width: 100%;
+    background-color:#DFF6FF;
+    height: 750px;
+    background-size: cover;
+    background-position: position;
+
+}
+.navbar{
+    height: 150px;
+    width: 1300px;
+    margin: auto;
+}
+.icon{
+    float: left;
+    width: 100px;
+    height: 70px;
+}
+.logo{
+    font-family: Arial;
+    color: black;
+    font-size: 35px;
+    float: left;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+.menu{
+    
+    width: 600px;
+    float: left; 
+    height: 50px;
+    margin-left: 650px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    /* align-items: ; */
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(18, 17, 17);
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+ul li a:hover{
+    color: orange;
+}
+.icon span{
+    color: orange;
+    font-size: 60px;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+.content{
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 300px;
+    width: 87%;
+    align-self: center;
+    padding: 20px;
+}
+.photo
+{
+    width: 60px;  
+    height: 40px;
+    
+}
+.con{
+    padding:0;
+    width:500px;  
+    height: 200px; 
+    margin-left:220px;
+    margin-bottom: 100px;
+}
+.about{
+    width: 50%;
+    height: 200px;
+    margin: 20px;
+    margin-left: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
